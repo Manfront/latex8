@@ -1,0 +1,45 @@
+
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{wrapfig}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\begin{document}
+\vspace{5pt}
+
+
+\title{Graphics/Pictures/Figures in a Document}
+\author{Dr.V.Balaji Vijayan \\ Professor\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\fancyfoot[C]{\thepage}
+\maketitle
+
+
+\section{Insertion Graphics/Pictures/Figures in a Document} 
+
+\subsection{Inserting the Graphics/Pictures/Figures side-by-side}
+\begin{figure}[h]
+        \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{C:/Users/vadit/OneDrive/Desktop/exp/vtu logo.png} 
+         \caption{Image}
+              \end{subfigure}
+     \hfill
+     \begin{subfigure}[b]{0.3\textwidth}
+        \includegraphics[width=\textwidth]{C:/Users/vadit/OneDrive/Desktop/exp/hkbk logo.png}
+         \caption{Figure}
+              \end{subfigure}
+   
+On the other side, if you are only interested on 
+certain values you can use the contour plot, you 
+can use the contour plot, you can use the contour 
+plot, you can use the contour plot, you can use the 
+contour plot, you can use the contour plot, 
+you can use the contour plot, 
+like the one on the left.
+ \end{figure}
+\end{document}

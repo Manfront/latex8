@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{trees}
+
+\begin{document}
+
+\title{Organization Hierarchy Diagram}
+\author{\textbf{Student} \\ Student \\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\date{}
+\maketitle
+
+\section{Hierarchy Diagram}
+
+\begin{center}
+\begin{tikzpicture}[
+  level 1/.style={sibling distance=40mm},
+  level 2/.style={sibling distance=18mm},
+  edge from parent/.style={->,draw},
+  >=latex]
+
+
+\node {Organization}
+  child {node {Department A}
+    child {node {Team 1}}
+    child {node {Team 2}}
+    child {node {Team 3}}
+  }
+  child {node {Department B}
+    child {node {Team 4}}
+    child {node {Team 5}}
+  };
+ 
+\end{tikzpicture}
+\end{center}
+
+\end{document}

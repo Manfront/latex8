@@ -1,0 +1,21 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+\pagestyle{fancy}
+\title{Simple Document}
+\author{\textbf{Adithya} \\ 4th Sem, Department of Information Science \& Engineering\\ HKBK College of Engineering, Nagawara, Bengaluru - 560045}
+
+
+\maketitle
+\section{What is GNU?}
+	GNU is an operating system that is free software-that is ,it respects users'freedom. 
+
+\section{More about GNU}
+	GNU is a Unix-like operating system. That means it is a collection of many programs: applications, libraries, developer tools,even games. \\
+
+\begin{itemize}
+\item The freedom to run the program as you wish, for any purpose (freedom 0).
+ 
+\end{itemize}
+\end{document}

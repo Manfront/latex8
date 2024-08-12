@@ -1,0 +1,10 @@
+@techreport{IEEEexample:IEEEstd:1363},
+  author        = "IEEE",
+  title         = "IEEE Standard for Information Technology--{Portable} Operating System Interface (POSIX){\textregistered} Base Specifications, {ANSI/IEEE Std} 1003.1, 2004 Edition",
+  institution   = "IEEE",
+  year          = "2004",
+  type          = "Standard",
+  number        = "1003.1",
+  edition       = "2004",
+  month         = "Jun.",
+}

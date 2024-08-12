@@ -1,0 +1,29 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,nccmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\begin{document}
+
+\title{Mathematical Equations in LaTeX}
+\author{Adithya\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+
+\maketitle
+
+\section{Insertion of Equation}
+\subsection{Equation 1}
+\begin{fleqn}
+\[x = \frac{-b \pm \sqrt{b^{2}-4ac}}{2a}\]
+\[= \frac{-2 \pm \sqrt{2^{2}-4*(1)*(-8)}}{2*1}\]
+\[= \frac{-2 \pm \sqrt{4+32}}{2}\]
+\end{fleqn}
+\subsection{Equation 2}
+\begin{fleqn}
+\[\varphi^{\lambda}{\sigma}A{t} = \sum_{\pi \in C_{t}} sgn(\pi)\varphi^{\lambda}{\sigma}\varphi^{\lambda}{\pi}\]
+\[= \sum_{\tau \in C_{\sigma t}} sgn(\sigma^{-1}\tau\sigma)\varphi^{\lambda}{\sigma}\varphi^{\lambda}{\sigma^{-1}\tau\sigma}\]
+\[= A_{\sigma t} \varphi^{\lambda}_{\sigma}\]
+\end{fleqn}
+
+\end{document}

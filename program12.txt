@@ -1,0 +1,55 @@
+\documentclass[6pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=3cm,right=3cm,top=2cm,bottom=2cm]{geometry}
+\author{Adithya}
+\title{Simple Report}
+\begin{document}
+
+\maketitle
+
+\chapter{Free Software}
+\section*{What is Free Software?}
+"\textbf{Free software}" means software that respects users' freedom and community. 
+
+\section*{The Free Software Definition}
+The free software definition presents the criteria for whether a particular software program qualifies as free software. \\
+
+A program is free software if the program's users have the four essential freedoms:	\\
+\begin{itemize}
+\item The freedom to redistribute copies so you can help others (freedom 2).
+\item The freedom to distribute copies of your modified versions to others (freedom 3). 
+\end{itemize}
+
+
+
+
+\chapter{Listing Environment}
+
+\begin{small}
+\section*{Unordered lists}
+
+\subsection*{Groceries List}
+\begin{itemize}
+	\item Eggs
+	\item Milk
+	\item Biscuits
+	\item Rice
+\end{itemize}	
+
+\section*{Ordered lists}
+\subsection*{ICC WTC Rankings}
+\begin{enumerate}
+\item India
+\item Australia
+\item New Zealand
+\end{enumerate}
+
+
+\end{small}
+
+
+\end{document}

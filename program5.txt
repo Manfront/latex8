@@ -1,0 +1,62 @@
+\documentclass[10pt,a4paper] {article}
+\usepackage[utf8] {inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{array}
+\begin{document}
+\centering
+\listoftables
+\vspace{5pt}
+The table
+\ref{table:1} is an example of referenced \LaTeX{} elements.
+\pagestyle{fancy}
+\title{Creating Simple Table}
+\author{Anushka\\ Student\\ Department of Information Science and Engineering\\
+HKBK College of Engineering, Bengaluru - 560045}
+\fancyfoot[C]{\thepage}
+\maketitle
+\section{Table Demo}
+\subsection{Simple Table without Border}
+The tabular environment is the default LATEX method to create tables. You must specify a parameter to this environment; here we use {c c c} which tells LaTeX there are three columns and the text inside each one of them must be centred.
+\begin{table} [h!]
+\begin{center}
+\begin{tabular}{c c c}
+cell1 & cell2 & cell3 \\
+cell4 & cell5 & cell6 \\
+cell7 & cell8 & cell9
+\end{tabular}
+\caption {Table without Border}
+\label{table:1}
+\end{center}
+\subsection{Simple Table with Border}
+\begin{center}
+\begin{tabular} {|c|c|c|}
+\hline
+cell1 & cell2 & cell3 \\
+cell4 & cell5 & cell6 \\
+cell7 & cell8 & cell9 \\
+\hline
+\end{tabular}
+\caption{Table with Border}
+\label (table:2)
+\end{center}
+\subsection {Tables with a fixed width}
+\begin{center}
+\begin{tabular}{|m{5em}|m{1cm}|m{1cm}|}
+\hline
+celll dummy text dummy text dummy text& cell2 & cells \\
+\hline
+celli dummy text dummy text dummy text & cell5 & cell6 \\
+\hline
+cell7 & cell8 & cell9 \\
+\hline
+\end{tabular}
+\caption{Tables with a fixed widthr}
+\label{table:3}
+\end{center}
+\end{table}
+\end{document}

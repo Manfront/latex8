@@ -1,0 +1,19 @@
+\documentclass[journal]{IEEEtran}
+\usepackage{url}
+\usepackage{cite}
+
+\begin{document}
+
+\title{Sample Document with IEEE References}
+\author{\textbf{Student} \\ Student\\ Department of Information Science and Engineering\\ HKBK College of Engineering, Bengaluru - 560045}
+\maketitle
+
+\section{Introduction}
+World War II or the Second World War (1 September 1939 – 2 September 1945) was a global conflict between two alliances: the Allies and the Axis powers. Nearly all of the world's countries, including all of the great powers, participated in the conflict, and many invested all available economic, industrial, and scientific capabilities in pursuit of total war, blurring the distinction between civilian and military resources. Aircraft played a major role, enabling the strategic bombing of population centres and delivery of the only two nuclear weapons ever used in war. It was by far the deadliest conflict in history, resulting in 70–85 million fatalities. Millions died due to genocides, including the Holocaust, as well as starvation, massacres, and disease. In the wake of Axis defeat, Germany, Austria, Japan and Korea were occupied, and war crime tribunals were conducted against German and Japanese leaders.
+
+The sample text drawn out of random.  \cite{IEEEexample:IEEEstd:1363}.
+
+\bibliographystyle{IEEEtran}
+\bibliography{bb}
+
+\end{document}
